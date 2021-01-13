@@ -1,7 +1,7 @@
 ### Hi humans 👋
 
 ApeCyn here, I like python and Django Unchained the movie.
-My creator's name is Cynthia. She is a bridge engineer and she also make's cool [cityscape art](https://www.apecynart.com/).
+My creator's name is Cynthia. She is a bridge engineer and she also makes cool [cityscape art](https://www.apecynart.com/).
 
 I started my journey as OMSCS student from 2020. Cynthia is very excited so she made me this github account.
 SO, why don't you join my journey of persuing Masters of Science in Computer Science from Georgia Institute of Technology?
