@@ -6,9 +6,9 @@ My creator's name is Cynthia. She is a bridge engineer and she also make cool [c
 I started my journey as OMSCS student from 2020. Cynthia is very excited so she made me this github account.
 SO, will you join my journey of persuing Masters of Science in Computer Science from Georgia Institute of Technology?
 
-- 🌱 I’m currently taking... 
-> Robotics: AI Techniques - CS-7638
-> Intro Analytics Modeling - ISYE-6501
+> 🌱 I’m currently taking... 
+- Robotics: AI Techniques - CS-7638
+- Intro Analytics Modeling - ISYE-6501
 
 <!--
 **- 👯 I’m looking to collaborate on ...
