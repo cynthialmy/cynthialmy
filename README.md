@@ -1,8 +1,5 @@
 ### Hi humans 👋
 
-<!--
-**cynthialmy/cynthialmy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 ApeCyn here, I like python and I like the movie Django Unchained.
 My creator's name is Cynthia. She is a bridge engineer and she also make cool [cityscape art](https://www.apecynart.com/).
 
