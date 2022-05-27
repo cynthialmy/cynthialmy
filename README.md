@@ -16,6 +16,7 @@ SO, why don't you join my journey of persuing Masters of Science in Computer Sci
 > - Machine Learning and Data Science Tooling - CS8001 @Gatech
 > - Academic and Business Writing - BerkelyX (UCB+Edx)
 > - English Composition I - Duke University (Coursera)
+
 > Next semester ...
 > - Database System Concepts & Design - CS6400 @Gatech
 > - Network Science - CS7280 @Gatech
