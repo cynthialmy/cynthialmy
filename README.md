@@ -24,6 +24,16 @@ SO, why don't you join my journey of persuing Masters of Science in Computer Sci
 
 📫 How to reach me: apecyncyn@gmail.com
 
+💻 LinkedIn: https://www.linkedin.com/in/mengyuan-li-cynthia/
+
+💾 SAP Profile: https://people.sap.com/cynthia.li03
+
+🖼 Art Project: https://www.apecynart.com/
+
+📝 Medium: https://medium.com/@cynthiamengyuanli/
+
+🛠 Github: https://github.com/cynthialmy
+
 <!--
 **- 👯 I’m looking to collaborate on ...
 - 🔭 I’m currently working 
