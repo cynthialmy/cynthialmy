@@ -22,8 +22,6 @@ SO, why don't you join my journey of persuing Masters of Science in Computer Sci
 > - Network Science - CS7280 @Gatech
 
 
-📫 How to reach me: apecyncyn@gmail.com
-
 💻 LinkedIn: https://www.linkedin.com/in/mengyuan-li-cynthia/
 
 💾 SAP Profile: https://people.sap.com/cynthia.li03
@@ -33,6 +31,9 @@ SO, why don't you join my journey of persuing Masters of Science in Computer Sci
 📝 Medium: https://medium.com/@cynthiamengyuanli/
 
 🛠 Github: https://github.com/cynthialmy
+
+
+📫 How to reach me: apecyncyn@gmail.com
 
 <!--
 **- 👯 I’m looking to collaborate on ...
