@@ -10,6 +10,7 @@ SO, why don't you join my journey of persuing Masters of Science in Computer Sci
 > - Robotics: AI Techniques - CS7638 @Getach
 > - Intro Analytics Modeling - ISYE6501 @Gatech
 > - Machine Learning for Trading - CS7646 @Gatech
+> - Wharton Strategic Management - Competitive Advantage
 
 > 🌱 I’m currently taking ... 
 > - Software Development Process - CS6300 @Gatech
