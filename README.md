@@ -3,8 +3,7 @@
 ApeCyn here, I like python and Django Unchained the movie.
 My creator's name is Cynthia. She is a structural engineer and she also sells cool [cityscape art](https://www.apecynart.com/).
 
-I started my journey as OMSCS student from 2021. Cynthia is very excited so she made me this github account.
-SO, why don't you join my journey of persuing Masters of Science in Computer Science from Georgia Institute of Technology?
+Cynthia started her journey as MSCS student from 2021. She is very excited so she made me a github account.
 
 > 📔 Courses I have taken ...
 > - Robotics: AI Techniques - CS7638 @Getach
