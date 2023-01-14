@@ -1,6 +1,6 @@
 ### Hi humans 👋
 
-ApeCyn here, I like python and Django Unchained the movie.
+ApeCyn here, I like python and Django (Unchained the movie).
 My creator's name is Cynthia. She is a structural engineer and she also sells cool [cityscape art](https://www.apecynart.com/).
 
 Cynthia started her journey as MSCS student from 2021. She is very excited so she made me a github account.
@@ -10,16 +10,19 @@ Cynthia started her journey as MSCS student from 2021. She is very excited so sh
 > - Intro Analytics Modeling - ISYE6501 @Gatech
 > - Machine Learning for Trading - CS7646 @Gatech
 > - Wharton Strategic Management - Competitive Advantage
-
-> 🌱 I’m currently taking ... 
 > - Software Development Process - CS6300 @Gatech
 > - Machine Learning and Data Science Tooling - CS8001 @Gatech
-> - Academic and Business Writing - BerkelyX (UCB+Edx)
-> - English Composition I - Duke University (Coursera)
+
+> 🌱 I’m currently taking ... 
+> - Matrix Methods In Data Analysis, Signal Processing, And Machine Learning - MIT
+> - Mobile App and Services - CS8803 @Gatech
+> - Computational Data Analysis - CS6740 @Gatech
+> - Information Visualization - CS7450 @Gatech
+> - Data and VIsual Analytics - CS6242 @Gatech
 
 > Next semester ...
-> - Database System Concepts & Design - CS6400 @Gatech
-> - Network Science - CS7280 @Gatech
+> - Human-Computer Interaction - CS6750 @Gatech
+> - Intro to Cognitive Science - CS6795 @Gatech
 
 
 💻 LinkedIn: https://www.linkedin.com/in/mengyuan-li-cynthia/
