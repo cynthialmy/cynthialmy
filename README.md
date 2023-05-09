@@ -24,6 +24,9 @@ Cynthia started her journey as MSCS student from 2021. She is very excited so sh
 > - Human-Computer Interaction - CS6750 @Gatech
 > - Intro to Cognitive Science - CS6795 @Gatech
 
+🛠 Github: https://github.com/cynthialmy
+
+🎥 YouTube: https://www.youtube.com/@mengyuancynthiali3449
 
 💻 LinkedIn: https://www.linkedin.com/in/mengyuan-li-cynthia/
 
@@ -32,8 +35,6 @@ Cynthia started her journey as MSCS student from 2021. She is very excited so sh
 🖼 Art Project: https://www.apecynart.com/
 
 📝 Medium: https://medium.com/@cynthiamengyuanli/
-
-🛠 Github: https://github.com/cynthialmy
 
 
 📫 How to reach me: apecyncyn@gmail.com
