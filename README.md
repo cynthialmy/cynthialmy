@@ -12,17 +12,19 @@ Cynthia started her journey as MSCS student from 2021. She is very excited so sh
 > - Wharton Strategic Management - Competitive Advantage
 > - Software Development Process - CS6300 @Gatech
 > - Machine Learning and Data Science Tooling - CS8001 @Gatech
-
-> 🌱 I’m currently taking ... 
 > - Matrix Methods In Data Analysis, Signal Processing, And Machine Learning - MIT
 > - Mobile App and Services - CS8803 @Gatech
 > - Computational Data Analysis - CS6740 @Gatech
 > - Information Visualization - CS7450 @Gatech
 > - Data and VIsual Analytics - CS6242 @Gatech
-
-> Next semester ...
 > - Human-Computer Interaction - CS6750 @Gatech
 > - Intro to Cognitive Science - CS6795 @Gatech
+
+
+> 🌱 I’m currently taking ... 
+
+> Next semester ...
+
 
 🛠 Github: https://github.com/cynthialmy
 
