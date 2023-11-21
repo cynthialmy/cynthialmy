@@ -1,6 +1,6 @@
 Hello, World! 👋 
 
-I'm Cynthia, also known around the digital universe as ApeCyn. I'm a fusion of computer science, structural engineering precision and the creative force behind cityscape artistry. Python is my go-to language, and I also love JavaScript and Imba for full-stack development.
+I'm Cynthia, also known around the digital universe as ApeCyn. I'm a fusion of computer science, structural engineering precision and the creative force behind cityscape artistry. Python is my go-to language, and I also love Swift, JavaScript and Imba for full-stack development.
 
 I thrive on turning complex data into compelling stories and scalable solutions.
 
