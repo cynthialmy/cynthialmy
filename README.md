@@ -1,12 +1,12 @@
 Hello, World! 👋 
 
-I'm Cynthia, a fusion of computer science, structural engineering precision and the creative force behind cityscape artistry. Python is my go-to language, and I also love Swift, JavaScript and Imba for full-stack development.
+I'm Cynthia, a fusion of computer science, structural engineering precision, and cityscape artistry. Python is my go-to language, and I also love Swift, JavaScript and Imba for full-stack development.
 
 I thrive on turning complex data into compelling stories and scalable solutions.
 
 🏗 **My Journey So Far**
 
-I embarked on an exciting journey as an MSCS student at Georgia Tech in 2021, diving deep into the realms of AI, machine learning, and data science. This adventure has been a blend of rigorous academic courses, hands-on projects, and continuous learning, fueling my passion for technology and design.
+I started an exciting journey as an MSCS student at Georgia Tech in 2021, diving deep into the realms of AI, machine learning, and data science. 
 
 🎓 **Courses That Have Shaped My Path**
 
