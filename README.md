@@ -37,6 +37,7 @@ I'm gearing up for another semester packed with learning, coding, and creating. 
 - Personal Website: [cynthialmy.github.io](https://cynthialmy.github.io)
 - GitHub: [cynthialmy](https://github.com/cynthialmy)
 - LinkedIn: [mengyuan-li-cynthia](https://www.linkedin.com/in/mengyuan-li-cynthia/)
+- Kaggle: [cynthiamengyuanli](https://www.kaggle.com/cynthiamengyuanli)
 - SAP Community: [Cynthia Li](https://people.sap.com/cynthia.li03)
 - Art Portfolio: [ApeCyn's Cityscapes](https://www.apecynart.com/)
 - YouTube: [Cynthia's Tech and Art Channel](https://www.youtube.com/@mengyuancynthiali3449)
