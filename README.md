@@ -8,7 +8,7 @@ I thrive on turning complex data into compelling stories and scalable solutions.
 
 I started an exciting journey as an MSCS student at Georgia Tech in 2021, diving deep into AI, machine learning, and data science. 
 
-🎓 **Courses That Have Shaped My Path**
+🎓 **Courses Taken**
 
 - Robotics: AI Techniques - CS7638
 - Intro Analytics Modeling - ISYE6501
