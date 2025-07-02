@@ -29,11 +29,13 @@ I started an exciting journey as an MSCS student at Georgia Tech in 2021, diving
 - Data & Visual Analytics - CSE6242
 - Computational Data Analysis - CSE6740
 
+
 🔗 **Let's Connect!**
 
 - Personal Website: [cynthialmy.github.io](https://cynthialmy.github.io)
 - LinkedIn: [mengyuan-li-cynthia](https://www.linkedin.com/in/mengyuan-li-cynthia/)
 - Medium: [Writings by Cynthia](https://medium.com/@cynthiamengyuanli)
+
 
 📧 **Reach Out!**
 
