@@ -1,12 +1,13 @@
 Hello, World! 👋 
 
-I'm Cynthia, a fusion of product management, computer science, structural engineering, and cityscape artistry. Python is my go-to language, and I also love Swift, JavaScript and Imba for full-stack development.
+I'm Cynthia, a fusion of product management, engineering, and cityscape artistry. 
 
-I thrive on turning complex data into compelling stories and scalable solutions.
+Python is my go-to language, and I also love Swift, JavaScript and Imba for full-stack development.
+
 
 🏗 **My Journey So Far**
 
-I started an exciting journey as an MSCS student at Georgia Tech in 2021, diving deep into AI, machine learning, and data science. 
+I started an exciting journey as an MSCS student at Georgia Tech in 2021, diving deep into AI, machine learning, and data visualization. 
 
 🎓 **Courses Taken**
 
@@ -28,10 +29,6 @@ I started an exciting journey as an MSCS student at Georgia Tech in 2021, diving
 - Data & Visual Analytics - CSE6242
 - Computational Data Analysis - CSE6740
 
-🚀 **What's Next?**
-
-I'm gearing up for another semester packed with learning, coding, and creating. Stay tuned for updates on my upcoming courses and projects!
-
 🔗 **Let's Connect!**
 
 - Personal Website: [cynthialmy.github.io](https://cynthialmy.github.io)
@@ -40,4 +37,4 @@ I'm gearing up for another semester packed with learning, coding, and creating. 
 
 📧 **Reach Out!**
 
-Got an idea, project, or just a tech-related question? Don't hesitate to shoot me an email at [cynthiamengyuanli@gmail.com](mailto:cynthiamengyuanli@gmail.com). I'm always open to interesting conversations, collaborative ventures, and coffee chat invitations!
+Got an idea, project, or just a tech-related question? Don't hesitate to shoot me an email at [cynthiamengyuanli@gmail.com](mailto:cynthiamengyuanli@gmail.com). I'm always open to interesting conversations!
