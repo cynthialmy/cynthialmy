@@ -2,8 +2,6 @@ Hello, World! 👋
 
 I'm Cynthia, a fusion of product management, engineering, and cityscape artistry. 
 
-Python is my go-to language, and I also love Swift, JavaScript and Imba for full-stack development.
-
 
 🏗 **My Journey So Far**
 
@@ -35,8 +33,3 @@ I started an exciting journey as an MSCS student at Georgia Tech in 2021, diving
 - Personal Website: [cynthialmy.github.io](https://cynthialmy.github.io)
 - LinkedIn: [mengyuan-li-cynthia](https://www.linkedin.com/in/mengyuan-li-cynthia/)
 - Medium: [Writings by Cynthia](https://medium.com/@cynthiamengyuanli)
-
-
-📧 **Reach Out!**
-
-Got an idea, project, or just a tech-related question? Don't hesitate to shoot me an email at [cynthiamengyuanli@gmail.com](mailto:cynthiamengyuanli@gmail.com). I'm always open to interesting conversations!
