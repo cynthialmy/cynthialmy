@@ -1,35 +1,61 @@
-Hello, World! 👋 
+## Hello, World 👋
 
-I'm Cynthia, a fusion of product management, engineering, and cityscape artistry. 
+I am Cynthia Li, a product leader with an engineering foundation, building data and AI products that scale.
 
+My background spans software engineering, product management, and applied AI. I care deeply about translating complex systems into intuitive experiences and measurable business outcomes. I work at the intersection of technology, experimentation, and human centered design.
 
-🏗 **My Journey So Far**
+---
 
-I started an exciting journey as an MSCS student at Georgia Tech in 2021, diving deep into AI, machine learning, and data visualization. 
+## What I Focus On
 
-🎓 **Courses Taken**
+* AI and machine learning applications
+* Data platforms and internal tooling
+* GenAI use cases in enterprise environments
+* Product strategy, experimentation, and growth
+* 0 to 1 exploration and validation
 
-- Robotics: AI Techniques - CS7638
-- Intro Analytics Modeling - ISYE6501
-- Machine Learning for Trading - CS7646
-- Wharton Strategic Management - Competitive Advantage
-- Software Development Process - CS6300
-- Machine Learning and Data Science Tooling - CS8001
-- Matrix Methods In Data Analysis, Signal Processing, And Machine Learning - MIT
-- Mobile App and Services - CS8803
-- Computational Data Analysis - CS6740
-- Information Visualization - CS7450
-- Data and Visual Analytics - CS6242
-- Human-Computer Interaction - CS6750
-- Intro to Cognitive Science - CS6795
-- Inform Visualization - CS7450
-- Special Topics: Mobile Applications & Services - CS8803
-- Data & Visual Analytics - CSE6242
-- Computational Data Analysis - CSE6740
+I enjoy working close to the code while thinking in systems, metrics, and long term leverage.
 
+---
 
-🔗 **Let's Connect!**
+## Academic Foundation
 
-- Personal Website: [cynthialmy.github.io](https://cynthialmy.github.io)
-- LinkedIn: [mengyuan-li-cynthia](https://www.linkedin.com/in/mengyuan-li-cynthia/)
-- Medium: [Writings by Cynthia](https://medium.com/@cynthiamengyuanli)
+M.S. in Computer Science, Georgia Institute of Technology
+
+Coursework focused on artificial intelligence, machine learning, data analysis, visualization, and human computer interaction.
+
+Selected courses:
+
+* Robotics: AI Techniques
+* Machine Learning for Trading
+* Information Visualization
+* Data and Visual Analytics
+* Computational Data Analysis
+* Human Computer Interaction
+* Intro to Cognitive Science
+* Intro Analytics Modeling
+* Software Development Process
+* Machine Learning and Data Science Tooling
+* Matrix Methods in Data Analysis, Signal Processing, and Machine Learning
+* Strategic Management and Competitive Advantage
+
+---
+
+## How I Think About Building
+
+Great products sit at the intersection of:
+
+* Technical depth
+* Clear strategy
+* User empathy
+* Strong execution
+
+I believe the best systems are not the most complex. They are the most intentional.
+
+---
+
+## Connect
+
+* Personal Website: [https://cynthialmy.github.io](https://cynthialmy.github.io)
+* LinkedIn: [https://www.linkedin.com/in/mengyuan-li-cynthia/](https://www.linkedin.com/in/mengyuan-li-cynthia/)
+* Medium: [https://medium.com/@cynthiamengyuanli](https://medium.com/@cynthiamengyuanli)
