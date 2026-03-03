@@ -46,9 +46,7 @@ Great products sit at the intersection of:
 * User empathy
 * Strong execution
 
-I believe the best systems are not the most complex. They are the most intentional.
-
----
+I believe the best systems are the most intentional.
 
 ## Connect
 
