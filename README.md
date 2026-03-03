@@ -16,8 +16,6 @@ My background spans software engineering, product management, and applied AI. I 
 
 I enjoy working close to the code while thinking in systems, metrics, and long term leverage.
 
----
-
 ## Academic Foundation
 
 M.S. in Computer Science, Georgia Institute of Technology
@@ -38,8 +36,6 @@ Selected courses:
 * Machine Learning and Data Science Tooling
 * Matrix Methods in Data Analysis, Signal Processing, and Machine Learning
 * Strategic Management and Competitive Advantage
-
----
 
 ## How I Think About Building
 
