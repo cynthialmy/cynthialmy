@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #06070d; overflow: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script>
+const W = 1400, H = 420;
+const canvas = document.getElementById('c');
+canvas.width = W; canvas.height = H;
+const ctx = canvas.getContext('2d');
+
+const nodes = [
+  { id: 'AI / ML', x: 340, y: 180, r: 38, color: '#6ee7b7', group: 'core' },
+  { id: 'Product\nStrategy', x: 560, y: 140, r: 34, color: '#93c5fd', group: 'core' },
+  { id: 'Data\nPlatforms', x: 480, y: 290, r: 30, color: '#c4b5fd', group: 'core' },
+  { id: 'Engineering', x: 200, y: 260, r: 28, color: '#fbbf24', group: 'core' },
+  { id: 'GenAI', x: 180, y: 130, r: 24, color: '#f472b6', group: 'mid' },
+  { id: 'Trust &\nSafety', x: 650, y: 280, r: 24, color: '#fb923c', group: 'mid' },
+  { id: 'Human-in\nthe-Loop', x: 420, y: 70, r: 20, color: '#38bdf8', group: 'mid' },
+  { id: 'Experimentation', x: 620, y: 60, r: 18, color: '#a78bfa', group: 'outer' },
+  { id: 'Governance', x: 700, y: 170, r: 18, color: '#34d399', group: 'outer' },
+  { id: '0→1', x: 120, y: 200, r: 18, color: '#f87171', group: 'outer' },
+  { id: 'RAG', x: 260, y: 60, r: 16, color: '#e879f9', group: 'outer' },
+  { id: 'LLM\nSystems', x: 140, y: 330, r: 16, color: '#22d3ee', group: 'outer' },
+  { id: 'Data\nContracts', x: 560, y: 350, r: 15, color: '#86efac', group: 'outer' },
+  { id: 'Metrics', x: 730, y: 90, r: 14, color: '#fcd34d', group: 'outer' },
+];
+
+const links = [
+  ['AI / ML', 'Product\nStrategy'], ['AI / ML', 'Data\nPlatforms'], ['AI / ML', 'Engineering'],
+  ['AI / ML', 'GenAI'], ['AI / ML', 'Human-in\nthe-Loop'], ['AI / ML', 'RAG'],
+  ['Product\nStrategy', 'Data\nPlatforms'], ['Product\nStrategy', 'Trust &\nSafety'],
+  ['Product\nStrategy', 'Experimentation'], ['Product\nStrategy', 'Human-in\nthe-Loop'],
+  ['Product\nStrategy', 'Governance'], ['Product\nStrategy', 'Metrics'],
+  ['Data\nPlatforms', 'Engineering'], ['Data\nPlatforms', 'Governance'],
+  ['Data\nPlatforms', 'Data\nContracts'], ['Data\nPlatforms', 'LLM\nSystems'],
+  ['Engineering', 'GenAI'], ['Engineering', '0→1'], ['Engineering', 'LLM\nSystems'],
+  ['GenAI', 'RAG'], ['GenAI', 'LLM\nSystems'], ['GenAI', 'Human-in\nthe-Loop'],
+  ['Trust &\nSafety', 'Governance'], ['Trust &\nSafety', 'Human-in\nthe-Loop'],
+  ['Experimentation', 'Metrics'], ['0→1', 'GenAI'],
+];
+
+const nodeMap = {};
+nodes.forEach(n => nodeMap[n.id] = n);
+
+const particles = [];
+for (let i = 0; i < 120; i++) {
+  const link = links[Math.floor(Math.random() * links.length)];
+  particles.push({
+    link,
+    t: Math.random(),
+    speed: 0.001 + Math.random() * 0.003,
+    size: 1 + Math.random() * 2,
+    opacity: 0.3 + Math.random() * 0.5,
+  });
+}
+
+const bgStars = [];
+for (let i = 0; i < 200; i++) {
+  bgStars.push({
+    x: Math.random() * W,
+    y: Math.random() * H,
+    r: Math.random() * 1.2,
+    twinkle: Math.random() * Math.PI * 2,
+    speed: 0.01 + Math.random() * 0.03,
+  });
+}
+
+let frame = 0;
+function draw() {
+  frame++;
+  ctx.fillStyle = '#06070d';
+  ctx.fillRect(0, 0, W, H);
+
+  const grad = ctx.createRadialGradient(420, 200, 50, 420, 200, 500);
+  grad.addColorStop(0, 'rgba(99,102,241,0.06)');
+  grad.addColorStop(0.5, 'rgba(59,130,246,0.02)');
+  grad.addColorStop(1, 'rgba(6,7,13,0)');
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, W, H);
+
+  bgStars.forEach(s => {
+    s.twinkle += s.speed;
+    const alpha = 0.2 + 0.5 * Math.abs(Math.sin(s.twinkle));
+    ctx.beginPath();
+    ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(200,210,255,${alpha})`;
+    ctx.fill();
+  });
+
+  links.forEach(([a, b]) => {
+    const na = nodeMap[a], nb = nodeMap[b];
+    ctx.beginPath();
+    ctx.moveTo(na.x, na.y);
+    ctx.lineTo(nb.x, nb.y);
+    ctx.strokeStyle = 'rgba(148,163,184,0.12)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  });
+
+  particles.forEach(p => {
+    p.t += p.speed;
+    if (p.t > 1) p.t -= 1;
+    const na = nodeMap[p.link[0]], nb = nodeMap[p.link[1]];
+    const x = na.x + (nb.x - na.x) * p.t;
+    const y = na.y + (nb.y - na.y) * p.t;
+    ctx.beginPath();
+    ctx.arc(x, y, p.size, 0, Math.PI * 2);
+    const color = na.color;
+    ctx.fillStyle = color.replace(')', `,${p.opacity})`).replace('rgb', 'rgba').replace('#', '');
+    const r = parseInt(na.color.slice(1, 3), 16);
+    const g = parseInt(na.color.slice(3, 5), 16);
+    const bl = parseInt(na.color.slice(5, 7), 16);
+    ctx.fillStyle = `rgba(${r},${g},${bl},${p.opacity})`;
+    ctx.fill();
+  });
+
+  nodes.forEach(n => {
+    const pulse = 1 + 0.08 * Math.sin(frame * 0.02 + nodes.indexOf(n));
+    const glowR = n.r * 2.5 * pulse;
+    const glow = ctx.createRadialGradient(n.x, n.y, n.r * 0.3, n.x, n.y, glowR);
+    const r = parseInt(n.color.slice(1, 3), 16);
+    const g = parseInt(n.color.slice(3, 5), 16);
+    const b = parseInt(n.color.slice(5, 7), 16);
+    glow.addColorStop(0, `rgba(${r},${g},${b},0.25)`);
+    glow.addColorStop(0.5, `rgba(${r},${g},${b},0.06)`);
+    glow.addColorStop(1, `rgba(${r},${g},${b},0)`);
+    ctx.fillStyle = glow;
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, glowR, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, n.r * 0.55, 0, Math.PI * 2);
+    const inner = ctx.createRadialGradient(n.x - n.r * 0.15, n.y - n.r * 0.15, 0, n.x, n.y, n.r * 0.55);
+    inner.addColorStop(0, `rgba(${r},${g},${b},0.9)`);
+    inner.addColorStop(1, `rgba(${r},${g},${b},0.4)`);
+    ctx.fillStyle = inner;
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, n.r * 0.55, 0, Math.PI * 2);
+    ctx.strokeStyle = `rgba(${r},${g},${b},0.6)`;
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+
+    ctx.fillStyle = '#e2e8f0';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    const fontSize = n.group === 'core' ? 11 : n.group === 'mid' ? 10 : 9;
+    ctx.font = `600 ${fontSize}px "SF Pro Display", "Inter", system-ui, sans-serif`;
+    const lines = n.id.split('\n');
+    const lineH = fontSize + 2;
+    const startY = n.y - ((lines.length - 1) * lineH) / 2;
+    lines.forEach((line, i) => {
+      ctx.fillText(line, n.x, startY + i * lineH);
+    });
+  });
+
+  ctx.fillStyle = '#f1f5f9';
+  ctx.textAlign = 'left';
+  ctx.font = '700 42px "SF Pro Display", "Inter", system-ui, sans-serif';
+  ctx.fillText('Cynthia Li', 870, 155);
+
+  ctx.fillStyle = '#94a3b8';
+  ctx.font = '400 16px "SF Pro Display", "Inter", system-ui, sans-serif';
+  ctx.fillText('Product Leader × Engineering Foundation', 870, 195);
+  ctx.fillText('Building data & AI products that scale', 870, 220);
+
+  ctx.fillStyle = '#64748b';
+  ctx.font = '400 13px "SF Pro Display", "Inter", system-ui, sans-serif';
+  ctx.fillText('AI Decision Systems  ·  Trust & Safety  ·  Data Platforms  ·  0→1 Exploration', 870, 265);
+
+  const tagY = 310;
+  const tags = [
+    { text: 'Volvo Cars', color: '#6ee7b7' },
+    { text: 'SAP', color: '#93c5fd' },
+    { text: 'Airwallex', color: '#c4b5fd' },
+    { text: 'Alibaba', color: '#fbbf24' },
+    { text: 'Georgia Tech', color: '#f472b6' },
+  ];
+  let tagX = 870;
+  tags.forEach(tag => {
+    const r = parseInt(tag.color.slice(1, 3), 16);
+    const g = parseInt(tag.color.slice(3, 5), 16);
+    const b = parseInt(tag.color.slice(5, 7), 16);
+    ctx.font = '500 12px "SF Pro Display", "Inter", system-ui, sans-serif';
+    const tw = ctx.measureText(tag.text).width;
+    const pad = 12;
+
+    ctx.fillStyle = `rgba(${r},${g},${b},0.1)`;
+    ctx.strokeStyle = `rgba(${r},${g},${b},0.3)`;
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    const bw = tw + pad * 2, bh = 26, br = 13;
+    ctx.roundRect(tagX, tagY - 13, bw, bh, br);
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.fillStyle = tag.color;
+    ctx.fillText(tag.text, tagX + pad, tagY + 1);
+    tagX += bw + 8;
+  });
+
+  if (frame < 180) {
+    requestAnimationFrame(draw);
+  }
+}
+draw();
+</script>
+</body>
+</html>
