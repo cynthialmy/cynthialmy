@@ -14,15 +14,12 @@ I build AI products in high-stakes, policy-constrained environments, combining L
 
 I care about translating complex systems into intuitive experiences. I work close to the code while thinking in systems, metrics, and long-term leverage.
 
-<br/>
+I belive great products sit at the intersection of:
 
-<div align="center">
-
-<img src="cynthia_skills.png" alt="Skill Constellation - Competency Radar" width="720" />
-
-</div>
-
-<br/>
+* Technical depth
+* Clear strategy
+* User empathy
+* Strong execution
 
 ## Featured Work
 
@@ -98,12 +95,8 @@ Designing a lightweight, file-based AI system with structured memory and evoluti
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/cynthialmy">
-<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=cynthialmy&layout=compact&bg_color=06070d&title_color=6ee7b7&text_color=94a3b8&border_color=1e293b&hide_border=false&langs_count=8" />
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=cynthialmy&background=06070d&border=1e293b&stroke=1e293b&ring=6ee7b7&fire=f472b6&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=6ee7b7&sideLabels=94a3b8&dates=64748b" />
 </a>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=cynthialmy&background=06070d&border=1e293b&stroke=1e293b&ring=6ee7b7&fire=f472b6&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=6ee7b7&sideLabels=94a3b8&dates=64748b" width="520" />
 
 </div>
 
@@ -123,6 +116,15 @@ Coursework in AI, machine learning, data analysis, visualization, and human-comp
 | ML and Data Science Tooling | Information Visualization | Software Development Process |
 | Matrix Methods in Data Analysis | Intro Analytics Modeling | Strategic Management |
 
+</details>
+
+<details>
+<summary>Skill Constellation</summary>
+<br/>
+<div align="left">
+<img src="cynthia_skills.png" alt="Skill Constellation - Competency Radar" width="720" />
+</div>
+<br/>
 </details>
 
 ## Connect
