@@ -91,11 +91,11 @@ Designing a lightweight, file-based AI system with structured memory and evoluti
 <div align="center">
 
 <a href="https://github.com/cynthialmy">
-<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=cynthialmy&show_icons=true&bg_color=06070d&title_color=6ee7b7&text_color=94a3b8&icon_color=93c5fd&border_color=1e293b&hide_border=false&count_private=true" />
+<img height="140" src="https://github-readme-stats-sigma-five.vercel.app/api?username=cynthialmy&show_icons=true&bg_color=06070d&title_color=6ee7b7&text_color=94a3b8&icon_color=93c5fd&border_color=1e293b&hide_border=false&count_private=true" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/cynthialmy">
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=cynthialmy&background=06070d&border=1e293b&stroke=1e293b&ring=6ee7b7&fire=f472b6&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=6ee7b7&sideLabels=94a3b8&dates=64748b" />
+<img height="140" src="https://github-readme-streak-stats.herokuapp.com?user=cynthialmy&background=06070d&border=1e293b&stroke=1e293b&ring=6ee7b7&fire=f472b6&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=6ee7b7&sideLabels=94a3b8&dates=64748b" />
 </a>
 
 </div>
