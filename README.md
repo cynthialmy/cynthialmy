@@ -10,16 +10,52 @@
 
 ---
 
-I build AI products in high-stakes, policy-constrained environments, combining LLM-powered workflows with human-in-the-loop governance and measurable quality signals. My background spans software engineering, product management, and applied AI across Volvo Cars, SAP, Airwallex, and Alibaba.
+AI product builder with an engineering foundation. I design high-stakes, policy-constrained systems with LLM workflows, human-in-the-loop governance, and measurable quality signals.
 
-I care about translating complex systems into intuitive experiences. I work close to the code while thinking in systems, metrics, and long-term leverage.
+Worked across `Volvo Cars` `SAP` `Airwallex` `Alibaba`, operating at the intersection of product, data, and applied AI.
 
-I belive great products sit at the intersection of:
+<table>
+<tr>
+<td width="50%">
+<strong>Technical Depth</strong><br/>
+Hands-on with data, AI workflows, and system behavior.
+</td>
+<td width="50%">
+<strong>Clear Strategy</strong><br/>
+Translate ambiguity into decisions, sequencing, and leverage.
+</td>
+</tr>
+<tr>
+<td width="50%">
+<strong>User Empathy</strong><br/>
+Turn complex systems into intuitive experiences people trust.
+</td>
+<td width="50%">
+<strong>Strong Execution</strong><br/>
+Ship with measurable signals, guardrails, and iteration loops.
+</td>
+</tr>
+</table>
 
-* Technical depth
-* Clear strategy
-* User empathy
-* Strong execution
+## Toolbox
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-0a0a0f?style=for-the-badge&logo=python&logoColor=6ee7b7)
+![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0f?style=for-the-badge&logo=typescript&logoColor=93c5fd)
+![SQL](https://img.shields.io/badge/SQL-0a0a0f?style=for-the-badge&logo=postgresql&logoColor=c4b5fd)
+![Swift](https://img.shields.io/badge/Swift-0a0a0f?style=for-the-badge&logo=swift&logoColor=fb923c)
+![React](https://img.shields.io/badge/React-0a0a0f?style=for-the-badge&logo=react&logoColor=38bdf8)
+![D3.js](https://img.shields.io/badge/D3.js-0a0a0f?style=for-the-badge&logo=d3dotjs&logoColor=f472b6)
+
+![LangChain](https://img.shields.io/badge/LangChain-0a0a0f?style=for-the-badge&logo=chainlink&logoColor=6ee7b7)
+![OpenAI](https://img.shields.io/badge/OpenAI-0a0a0f?style=for-the-badge&logo=openai&logoColor=e2e8f0)
+![dbt](https://img.shields.io/badge/dbt-0a0a0f?style=for-the-badge&logo=dbt&logoColor=fb923c)
+![Snowflake](https://img.shields.io/badge/Snowflake-0a0a0f?style=for-the-badge&logo=snowflake&logoColor=38bdf8)
+![Azure](https://img.shields.io/badge/Azure-0a0a0f?style=for-the-badge&logo=microsoftazure&logoColor=93c5fd)
+![Figma](https://img.shields.io/badge/Figma-0a0a0f?style=for-the-badge&logo=figma&logoColor=a78bfa)
+
+</div>
 
 ## Featured Work
 
@@ -64,26 +100,6 @@ Designing a lightweight, file-based AI system with structured memory and evoluti
 
 <div align="right">
 <a href="https://cynthialmy.github.io"><b>View all case studies →</b></a>
-</div>
-
-## Toolbox
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-0a0a0f?style=for-the-badge&logo=python&logoColor=6ee7b7)
-![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0f?style=for-the-badge&logo=typescript&logoColor=93c5fd)
-![SQL](https://img.shields.io/badge/SQL-0a0a0f?style=for-the-badge&logo=postgresql&logoColor=c4b5fd)
-![Swift](https://img.shields.io/badge/Swift-0a0a0f?style=for-the-badge&logo=swift&logoColor=fb923c)
-![React](https://img.shields.io/badge/React-0a0a0f?style=for-the-badge&logo=react&logoColor=38bdf8)
-![D3.js](https://img.shields.io/badge/D3.js-0a0a0f?style=for-the-badge&logo=d3dotjs&logoColor=f472b6)
-
-![LangChain](https://img.shields.io/badge/LangChain-0a0a0f?style=for-the-badge&logo=chainlink&logoColor=6ee7b7)
-![OpenAI](https://img.shields.io/badge/OpenAI-0a0a0f?style=for-the-badge&logo=openai&logoColor=e2e8f0)
-![dbt](https://img.shields.io/badge/dbt-0a0a0f?style=for-the-badge&logo=dbt&logoColor=fb923c)
-![Snowflake](https://img.shields.io/badge/Snowflake-0a0a0f?style=for-the-badge&logo=snowflake&logoColor=38bdf8)
-![Azure](https://img.shields.io/badge/Azure-0a0a0f?style=for-the-badge&logo=microsoftazure&logoColor=93c5fd)
-![Figma](https://img.shields.io/badge/Figma-0a0a0f?style=for-the-badge&logo=figma&logoColor=a78bfa)
-
 </div>
 
 ## GitHub Activity
