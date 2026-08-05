@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="cynthia_banner.gif" alt="Cynthia Li - Skill Constellation" width="100%" />
+<!-- <img src="cynthia_banner.gif" alt="Cynthia Li - Skill Constellation" width="100%" /> -->
 
-<br/>
+<!-- <br/> -->
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1500&color=6EE7B7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=60&lines=Product+Leader+%C3%97+Engineering+Foundation;Building+AI+decision+systems+that+earn+trust+at+scale)](https://cynthialmy.github.io)
 
