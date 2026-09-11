@@ -55,7 +55,7 @@ Ship with measurable signals, guardrails, and iteration loops.
 
 </div>
 
-## Featured Work
+## Writings
 
 <table>
 <tr>
