@@ -10,8 +10,6 @@
 
 AI product builder with an engineering foundation. I design high-stakes, policy-constrained systems with LLM workflows, human-in-the-loop governance, and measurable quality signals.
 
-Worked across `Volvo Cars` `SAP` `Airwallex` `Alibaba`, operating at the intersection of product, data, and applied AI.
-
 <table>
 <tr>
 <td width="50%">
